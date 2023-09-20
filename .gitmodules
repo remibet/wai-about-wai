@@ -1,3 +1,7 @@
 [submodule "_external/data"]
 	path = _external/data
-	url = https://github.com/w3c/wai-website-data.git
+	## preview only: to change before merging to main branch
+	## url = https://github.com/w3c/wai-website-data.git
+	url = https://github.com/remibetin/wai-website-data.git
+    ## preview only: to delete before merging to main branch
+    branch = translating-doc
