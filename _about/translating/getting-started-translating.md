@@ -9,7 +9,7 @@ last_updated: 2023-09-26
 ref: /about/translating/getting-started/
 lang: en
 doc-note-type: draft
-doc-note-message-md: This page is a first draft documentation to guide volunteer translators. **It welcomes feedbacks**, even if steps 4 & 5 need updates and step-by-step instructions (to be added to Using Github guide).
+doc-note-message-md: This page is a first draft documentation to guide volunteer translators. **It welcomes feedbacks**.
 
 description: Help make the Web accessible to people with disabilities around the world. We appreciate your contributions to translating W3C WAI accessibility resources.
 image: /content-images/wai-about-wai/social-translations.png
@@ -161,11 +161,12 @@ Please wait for reply from WAI team before starting a translation.
 
 #### Recommended / quickest way {#translation-issue}
 
-From the translations sitemap in your language, click on the `"Volunteer to translate this page"` link, displayed next to the resource you intend to translate.
-  - It will automatically pre-fill a GitHub issue with some useful information.
+1. From the translations sitemap in your language, click on the `"Volunteer to translate this page"` link, displayed next to the resource you intend to translate. 
+2. It will automatically pre-fill a GitHub issue with some useful information. 
+3. Read and submit the issue.
 
 #### Alternatives:
-  - You can directly create an Issue in our GitHub translations repository. See [Creating a GitHub issue]()
+  - You can directly [create an Issue in _wai-translations_ repository](https://github.com/w3c/wai-translations/issues/new).
   - If you are not comfortable with GitHub, send e-mail to the WAI translations list using [this e-mail template](mailto:public-wai-translations@w3.org?subject=%5Blang%5D%20Intent%20to%20Translate%3A%20%5Btitle%5D&body=I%20would%20like%20to%20translate%20into%20%5Blanguage%5D%20the%20following%20resource%3A%0A%5BEnglish%20title%5D%0A%5BURI%5D%0A%0AI%20have%20read%20the%20information%20on%20Translating%20WAI%20Documents%20at%20https%3A%2F%2Fwww.w3.org%2FWAI%2Fabout%2Ftranslating%2F%0A%0AI%20will%20wait%20for%20confirmation%20that%20the%20resource%20is%20ready%20for%20translation.). 
 
 {% include excol.html type="end" %}
@@ -178,17 +179,19 @@ From the translations sitemap in your language, click on the `"Volunteer to tran
 
 #### Initial setup
 
-- Log in to your existing GitHub account, or create one. [See GitHub section](#github)
-- Get to the repository of the resource you will translate. 
+1. Log in to your existing GitHub account, or create one.
+2. Get to the repository of the resource you will translate. 
   - Near the bottom of each page on the WAI website, there is a "Help improve this page" box. The middle button is "Fork & Edit in GitHub". That gets you to the repository. 
-  - If you have followed the [recommended way](#translation-issue) to declare your intent, you can directly see that info in the GitHub issue.
-- You can directly work from there. When committing changes, a [forked repository {% include_cached external.html %}](https://docs.github.com/get-started/quickstart/fork-a-repo) will automatically be created. Alternatively, you can fork the repository first.
+  - If you have followed the [recommended way](#translation-issue) to declare your intent, the link to the repository has been automatically added in the GitHub issue description.
+3. You can directly work from there. When committing changes, a [forked repository {% include_cached external.html %}](https://docs.github.com/get-started/quickstart/fork-a-repo) (a duplication of the project that lets you make changes without affecting the original repository) will automatically be created.
+  - If you are familiar with GitHub, feel free to fork the repository first.
 
 #### Translate the resource
 
 - Refer to [Creating a Translation]({{ "/about/translating/guides/new-translation/" | relative_url }}) guide
 - If the page you are translating has videos, also refer to [Creating Video Subtitles/Descriptions]({{ "/about/translating/guides/video-subtitles/" | relative_url }})
 - Read the [Translating Guidance]({{ "/about/translating/guides/translation-guidance/" | relative_url }}).
+- Commit your changes.
 
 {% include excol.html type="end" %}
 
@@ -211,7 +214,7 @@ We have enabled a preview with Netlify so you can check your file and make edits
   - Eventually, commit some fixes.
   - At this point, if you encounter some technical problems, ask for help from WAI team.
 
-- When your auto-review is done, go to the next step.
+4. When your auto-review is done, go to the next step.
 
 {% include excol.html type="end" %}
 
