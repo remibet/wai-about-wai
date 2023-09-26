@@ -5,6 +5,7 @@ github:
   repository: w3c/wai-about-wai
   path: '_about/getting-started-translating.md'
 permalink: /about/translating/getting-started/
+last_updated: 2023-09-26
 ref: /about/translating/getting-started/
 lang: en
 doc-note-type: draft
@@ -15,7 +16,7 @@ image: /content-images/wai-about-wai/social-translations.png
 
 feedbackmail: wai@w3.org
 footer: |
-  <p><strong>Date:</strong> Updated 14 September 2023.</p>
+  <p><strong>Date:</strong> Updated 26 September 2023.</p>
   <p><strong>Editors:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>, Rémi Bétin.</p>
 
 translations_priorities:
@@ -103,7 +104,7 @@ We will be happy to guide you through GitHub or look for alternatives more suita
 
 {% include excol.html type="start" %}
 
-### Step 1: Find a resource to translate
+### Step 1: Find a resource to translate {#find-resource}
 
 {% include excol.html type="middle" %}
 
@@ -139,7 +140,7 @@ If there is no sitemap for your language, it generally means no resources have b
 
 {% include excol.html type="start" %}
 
-### Step 2: Inform us of your intent to translate a resource
+### Step 2: Inform us of your intent to translate a resource {#intent}
 
 {% include excol.html type="middle" %}
 
@@ -171,7 +172,7 @@ From the translations sitemap in your language, click on the `"Volunteer to tran
 
 {% include excol.html type="start" %}
 
-### Step 3: Start translating
+### Step 3: Start translating {#start-translation}
 
 {% include excol.html type="middle" %}
 
@@ -193,15 +194,19 @@ From the translations sitemap in your language, click on the `"Volunteer to tran
 
 {% include excol.html type="start" %}
 
-### Step 4: Preview and check your translation
+### Step 4: Preview and check your translation {#preview}
 
 {% include excol.html type="middle" %}
 
 We have enabled a preview with Netlify so you can check your file and make edits.
 
-- Open a [draft Pull Request {% include_cached external.html %}](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) in the GitHub repository of the resource, with `[IN-PROGRESS]` at the beginning of the title.
+1. Open a [draft Pull Request {% include_cached external.html %}](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) in the GitHub repository of the resource, with `[IN-PROGRESS]` at the beginning of the title.
 
-- After you submit the pull request, a preview will be generated. At first it will say "Some checks haven't completed yet.".
+2. After you submit the pull request, a preview will be generated. 
+  - At first it will say **"👷 Deploy Preview for _wai-repo-name_ processing."**.
+  - When done, it will say **"✅ Deploy Preview for _wai-repo-name_ ready!"** and a "Deploy Preview" link will appear.
+
+3. Click on the preview link:
   - Check everything listed in [Reviewer Guidance]({{ "/about/translating/guides/review-translation/" | relative_url }}#initial-things-to-check)
   - Eventually, commit some fixes.
   - At this point, if you encounter some technical problems, ask for help from WAI team.
@@ -212,25 +217,36 @@ We have enabled a preview with Netlify so you can check your file and make edits
 
 {% include excol.html type="start" %}
 
-### Step 5: Ask for reviews
+### Step 5: Ask for reviews {#review}
 
 {% include excol.html type="middle" %}
 
 Translations are reviewed before they are published.
 
-- Change the beginning of your PR title to `[READY FOR REVIEW]`
-- Communicate your PR is ready for review in the GitHub issue created at step 2.
-- Discussions take place directly in the GitHub Pull Request.
+1. [Change the state of your pull request to "Ready for review" {% include_cached external.html %}](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/changing-the-stage-of-a-pull-request) and change the beginning of your Pull Request title to `[READY FOR REVIEW]`
+2. Communicate your Pull Request is ready for review in the [GitHub issue created at step 2](#intent).
+3. Review discussions take place directly in the GitHub Pull Request. Work together with reviewer(s) to:
+   - fix issues;
+   - accurately convey the meaning from the English version;
+   - consider different dialects.
+
+If you have any questions about the wording, please report them in the GitHub issue so that WAI team and other volunteers can help.
 
 {% include excol.html type="end" %}
 
 {% include excol.html type="start" %}
 
-### Step 6: Wait for publication
+### Step 6: Wait for publication {#publication}
 
 {% include excol.html type="middle" %}
 
-WAI team is responsible for publishing translations.
+When the review is done, WAI team will:
+- do some final checks;
+- merge the Pull Request;
+- publish the translation on WAI website;
+- announce the publication in the publicly-archived [public-wai-translations@w3.org](mailto:ublic-wai-translations@w3.org) mailing list.
+
+Please note these steps may take some time depending on other ongoing priorities.
 
 {% include excol.html type="end" %}
 
@@ -264,7 +280,7 @@ WAI team is responsible for publishing translations.
   </ul>
 {%- endif -%}
 
-## Reviewing Translations  {#reviewing}
+## Reviewing Translations {#reviewing}
 
 Translations are reviewed by volunteers and WAI team before they are published.
 
